@@ -9,11 +9,11 @@ function draw(){
     fill('aquamarine');
     stroke('white')
     for(var i = 0; i < 8000; i++){
-        ellipse( (i*10)%width,(i*10)%height,20,20);
+        ellipse( (i*15)%width,(i*15)%height,20,20);
     }
 
     for(var i = 5000; i > 600; i--){
-        rect( (i*10)%width,(i*10)%height,20,20);
+        rect( (i*20)%width,(i*20)%height,20,20);
     }
 
     fill('blue');
